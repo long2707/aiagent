@@ -103,16 +103,16 @@ const AppSidebar = () => {
 										onClick={() => {
 											setActiveTab(item.id);
 										}}
-										asChild
 										className={`text-md w-full text-left px-4 py-4 rounded cursor-pointer ${
 											activeTab == item.id
 												? "!bg-red-200 text-red-600 font-medium"
-												: "hover:bg-red-50"
+												: ""
 										}`}
 										isActive={
 											activeTab == item.id ? true : false
 										}
 									>
+										<item.icon />
 										<span>{item.title}</span>
 									</SidebarMenuButton>
 								</SidebarMenuItem>

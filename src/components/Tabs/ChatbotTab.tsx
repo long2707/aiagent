@@ -49,7 +49,7 @@ export default function ChatbotTab() {
 			<div className="flex-1 flex flex-col">
 				<div className="h-[calc(100vh-5rem)] flex flex-col">
 					{/* Header */}
-					<div className="p-4 border-b bg-white font-semibold text-lg">
+					<div className="p-4 border-b  font-semibold text-lg">
 						Chat AI Assistant
 					</div>
 
@@ -102,7 +102,7 @@ export default function ChatbotTab() {
 					</div>
 
 					{/* Input */}
-					<div className="p-4 border-t flex bg-white">
+					<div className="p-4 border-t flex ">
 						<input
 							type="text"
 							placeholder="Nhập tin nhắn..."
